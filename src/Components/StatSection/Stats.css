@@ -1,0 +1,30 @@
+.stats-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 50px 10px;
+	gap: 30px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.stat-item h2 {
+	font-size: 2rem;
+    font-weight: 400;
+	color: #1d3b20;
+}
+
+.stat-item p {
+	font-size: 1rem;
+	color: #1d3b20;
+	margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.stats-container {
+		flex-direction: column;
+		gap: 20px;
+	}
+}

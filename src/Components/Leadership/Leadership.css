@@ -1,0 +1,127 @@
+.leadership-main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	gap: 30px;
+}
+
+.leadership-primary-heading {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.leadership-primary-heading p {
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: var(--secondary-color);
+	text-transform: uppercase;
+}
+
+.leadership-primary-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+	padding: 30px;
+	position: relative;
+}
+
+.principal-words-container {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 80%;
+	padding: 50px 50px;
+	background-color: var(--secondary-color);
+	color: white;
+}
+
+.principal-words-container span {
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.principal-words-container p {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	line-height: 150%;
+	max-width: 80%;
+}
+
+.principal-image-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20%;
+	height: 300px;
+	position: absolute;
+	right: 5%;
+	top: 20%;
+}
+
+.principal-image-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	border-radius: 10px;
+}
+
+.leadership-secondary-container {
+	display: flex;
+	align-items: center;
+	width: 80%;
+	justify-content: space-evenly;
+}
+
+.leaders-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: flex-start;
+	width: 300px;
+	gap: 15px;
+	position: relative;
+}
+
+.leaders-container img {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 100;
+}
+
+.leaders-container::before {
+	position: absolute;
+	content: "";
+	background-color: var(--secondary-color);
+	width: 50%;
+	height: 50%;
+	top: -10px;
+	right: -10px;
+	z-index: 10;
+}
+
+.leaders-container p {
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+	line-height: 100%;
+	text-transform: uppercase;
+}
+
+.leaders-container span {
+	font-size: 20px;
+	line-height: 100%;
+	letter-spacing: 0.02em;
+	color: var(--secondary-color);
+}
