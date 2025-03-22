@@ -1,13 +1,13 @@
 import "./App.css";
 import About from "./Components/About/About";
-import Admission from "./Components/AdmissionFooter/Admission";
 import Home from "./Components/Home/Home";
+import Nav from "./Components/Navbar/Nav";
+import StatsSection from "./Components/StatSection/Stats";
+import Admission from "./Components/AdmissionFooter/Admission";
 import Leadership from "./Components/Leadership/Leadership";
 import Mission from "./Components/Mission/Mission";
-import Nav from "./Components/Navbar/Nav";
 import ShufflePics from "./Components/Oath/Oath";
 import School_Image_Carousel from "./Components/School-Images/School_Images";
-import StatsSection from "./Components/StatSection/Stats";
 
 const App = () => {
 	return (

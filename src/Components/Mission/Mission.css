@@ -13,7 +13,6 @@
 	gap: 20px;
 	height: 800px;
 	width: 34%;
-	background-color: aqua;
 	padding-top: 20px;
 	position: relative;
 }
@@ -72,4 +71,16 @@
 
 .mission-container {
 	background-color: #ffa09b;
+}
+
+@media screen and (max-width: 768px) {
+	.mvm-main-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	.mvm-primary-container {
+		width: 100%;
+	}
 }

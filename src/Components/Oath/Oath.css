@@ -12,6 +12,7 @@
 @media (min-width: 768px) {
 	.shuffle-hero-container {
 		grid-template-columns: repeat(2, 1fr);
+		padding: 1rem;
 	}
 }
 

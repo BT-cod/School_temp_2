@@ -42,3 +42,24 @@
 	font-weight: 300;
 	max-width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+	.about-main-container {
+		width: 100%;
+		padding: 10px;
+	}
+	.about-primary-heading {
+		width: 100%;
+	}
+	.about-primary-heading p {
+		font-size: 35px;
+	}
+	.about-secondary-text-container p {
+		text-align: left;
+		font-size: 20px;
+		letter-spacing: 0.02em;
+		line-height: 130%;
+		font-weight: 300;
+		max-width: 95%;
+	}
+}

@@ -11,7 +11,7 @@
 
 .stat-item h2 {
 	font-size: 2rem;
-    font-weight: 400;
+	font-weight: 400;
 	color: #1d3b20;
 }
 
@@ -21,10 +21,22 @@
 	margin-top: 5px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
 	.stats-container {
 		flex-direction: column;
 		gap: 20px;
+		padding: 10px 10px;
+		width: 100%;
+	}
+	.stat-item h2 {
+		font-size: 3rem;
+		font-weight: 500;
+		color: var(--primary-color);
+	}
+
+	.stat-item p {
+		font-size: 1.2rem;
+		color: var(--secondary-color);
+		margin-top: 0px;
 	}
 }
