@@ -9,6 +9,7 @@ import Leadership from "./Components/Leadership/Leadership";
 import Mission from "./Components/Mission/Mission";
 import ShufflePics from "./Components/Oath/Oath";
 import School_Image_Carousel from "./Components/School-Images/School_Images";
+import { FaArrowTurnUp } from "react-icons/fa6";
 
 const App = () => {
 	const sectionsRef = useRef<(HTMLDivElement | null)[]>([]);
@@ -110,7 +111,7 @@ const App = () => {
 			{/* Scroll to Top Button */}
 			{showScrollToTop && (
 				<button className="scroll-to-top" onClick={scrollToTop}>
-					↑
+					<FaArrowTurnUp />
 				</button>
 			)}
 		</div>

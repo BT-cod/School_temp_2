@@ -46,6 +46,21 @@ const Leadership = () => {
 					<p>Mr. Vice Principal Trustee</p>
 					<span>Management, SJES</span>
 				</div>
+				<div className="leaders-container">
+					<img src={Management_Image} alt="Leaders" />
+					<p>Mr. Management Head</p>
+					<span>Management, SJES</span>
+				</div>
+				<div className="leaders-container">
+					<img src={HOD_Image} alt="Leaders" />
+					<p>Mr. Head Of Department</p>
+					<span>Management, SJES</span>
+				</div>
+				<div className="leaders-container">
+					<img src={VP_image} alt="Leaders" />
+					<p>Mr. Vice Principal Trustee</p>
+					<span>Management, SJES</span>
+				</div>
 			</div>
 		</div>
 	);

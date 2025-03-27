@@ -24,6 +24,7 @@
 	color: white;
 	background-color: var(--secondary-color);
 	padding: 30px;
+	opacity: 0.9;
 }
 
 @media screen and (max-width: 768px) {
@@ -40,5 +41,6 @@
 	.home-page-carousel p {
 		font-size: 40px;
 		padding: 20px;
+		opacity: 1;
 	}
 }
