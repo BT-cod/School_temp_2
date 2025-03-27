@@ -10,6 +10,9 @@ html,
 body {
 	width: 100%;
 	font-family: "Kanit", sans-serif;
+	scroll-behavior: smooth;
+	max-width: 1800px;
+	margin: 0 auto;
 }
 
 :root {
